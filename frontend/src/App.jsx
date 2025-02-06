@@ -4,6 +4,7 @@ import Navbar from "../src/components/navbar";
 import PhotoSlider from "./components/slider";
 import WeOffer from "./components/weoffer";
 import StayUpdated from "./components/stayupdated";
+import ReviewCard from "./components/reviewCard";
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
@@ -49,6 +50,7 @@ function App() {
 
       < WeOffer />
       <StayUpdated />
+      <ReviewCard/>
     </>
     
   );
